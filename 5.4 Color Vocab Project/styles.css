@@ -1,0 +1,58 @@
+
+body,html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: aliceblue;
+ 
+}
+#red {
+  color: red;
+}
+#blue {
+  color: blue;
+}
+#orange {
+  color: orange;
+}
+#green {
+  color: green;
+}
+#yellow {
+  color: yellow;
+}
+#purple{
+    color: purple;
+
+}
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  border-radius: 2px solid black;
+  transition: transform 0.5s
+}
+.image img:hover {
+    transform: scale(1.5);
+}
+.color-title {
+  font-weight: normal;
+
+}
+
+.color-list {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: center; 
+}
+
+.text {
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
